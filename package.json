@@ -1,0 +1,27 @@
+{
+  "name": "eslint-config-entrecode",
+  "version": "1.0.0",
+  "description": "code style by entrecode",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/entrecode/eslint-config-entrecode.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "entrecode"
+  ],
+  "author": "Ruben Deyhle <deyhle@entrecode.de>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/entrecode/eslint-config-entrecode/issues"
+  },
+  "homepage": "https://github.com/entrecode/eslint-config-entrecode#readme",
+  "dependencies": {
+    "eslint": "^7.1.0"
+  }
+}
