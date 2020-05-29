@@ -1,5 +1,10 @@
 module.exports = {
-  extends: ['airbnb', 'prettier', 'prettier/react', 'plugin:prettier/recommended'],
+  extends: [
+    'airbnb', // base configs from airbnb
+    'prettier', // eslint-config-prettier: removes all config which conflicts with prettier
+    'prettier/react', // also eslint-config-prettier, for usage with airbnb (which uses react)
+    'plugin:prettier/recommended', // adds plugin usage of prettier, translates prettier errors to eslint errors
+  ],
   rules: {
     'prettier/prettier': 'error',
     quotes: ['error', 'single', { avoidEscape: true, allowTemplateLiterals: false }],

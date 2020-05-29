@@ -2,7 +2,7 @@
 
 entrecode code style
 
-## the ESLint way
+## local usage
 
 > use this for shared projects, or if you want to do everything like it's meant to be
 
@@ -20,9 +20,26 @@ npm i --save-dev eslint eslint-config-entrecode
 }
 ```
 
-## the global repo way
-
+## global usage
 > use this if you want this code style applied to all projects without custom .eslintrc in VSCode
+
+1. run this in your root projects directory:
+
+```sh
+npm i eslint eslint-config-entrecode
+```
+
+2. add `.eslintrc` file:
+
+```json
+{
+  "extends": ["entrecode"]
+}
+```
+
+## also possible: the global repo way
+
+> like global usage, but without the module installed at top level
 
 1. clone this repo
 2. run `npm i` in it
