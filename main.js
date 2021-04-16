@@ -1,9 +1,7 @@
 module.exports = {
   extends: [
     'airbnb', // base configs from airbnb
-    'prettier', // eslint-config-prettier: removes all config which conflicts with prettier
-    'prettier/react', // also eslint-config-prettier, for usage with airbnb (which uses react)
-    'plugin:prettier/recommended', // adds plugin usage of prettier, translates prettier errors to eslint errors
+    'plugin:prettier/recommended', // eslint-config-prettier: removes all config which conflicts with prettier, translates prettier errors to eslint errors
   ],
   rules: {
     'prettier/prettier': 'error',
@@ -42,5 +40,8 @@ module.exports = {
     mocha: true,
     jest: true,
     browser: true,
+  },
+  parserOptions: {
+    ecmaVersion: 2021,
   },
 };
