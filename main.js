@@ -2,8 +2,12 @@ module.exports = {
   extends: [
     'airbnb', // base configs from airbnb
     'plugin:prettier/recommended', // eslint-config-prettier: removes all config which conflicts with prettier, translates prettier errors to eslint errors
+    'plugin:@typescript-eslint/recommended',
+    'plugin:import/recommended',
+    'plugin:import/typescript',
   ],
   rules: {
+    'import/extensions': ['warn', 'never'],
     'prettier/prettier': 'error',
     quotes: ['error', 'single', { avoidEscape: true, allowTemplateLiterals: false }],
     curly: ['error', 'all'],
@@ -33,7 +37,7 @@ module.exports = {
       },
     ],
   },
-  plugins: ['prettier'],
+  plugins: ['prettier', '@typescript-eslint'],
   env: {
     es6: true,
     node: true,
@@ -44,4 +48,5 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 2021,
   },
+  parser: '@typescript-eslint/parser',
 };
