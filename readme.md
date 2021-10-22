@@ -9,7 +9,7 @@ entrecode code style
 1. run this in your repo:
 
 ```sh
-npm i --save-dev eslint eslint-config-entrecode
+npm i --save-dev eslint-config-entrecode
 ```
 
 2. add `.eslintrc` file:
@@ -26,7 +26,7 @@ npm i --save-dev eslint eslint-config-entrecode
 1. run this in your root projects directory:
 
 ```sh
-npm i eslint eslint-config-entrecode
+npm i eslint-config-entrecode
 ```
 
 2. add `.eslintrc` file:
