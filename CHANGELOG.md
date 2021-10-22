@@ -1,3 +1,9 @@
+## <small>1.1.1 (2021-10-22)</small>
+
+* optimize dependencies ([a099263](https://github.com/entrecode/eslint-config-entrecode/commit/a099263))
+
+
+
 ## 1.1.0 (2021-10-22)
 
 * adds typescript support in linting ([8949622](https://github.com/entrecode/eslint-config-entrecode/commit/8949622))
