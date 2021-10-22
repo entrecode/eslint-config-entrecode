@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-entrecode",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "code style by entrecode",
   "main": "main.js",
   "scripts": {
