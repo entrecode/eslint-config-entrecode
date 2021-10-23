@@ -1,3 +1,12 @@
+## <small>1.1.2 (2021-10-23)</small>
+
+* 1.1.1 ([4a58550](https://github.com/entrecode/eslint-config-entrecode/commit/4a58550))
+* changed support for typescript with override ([ece7463](https://github.com/entrecode/eslint-config-entrecode/commit/ece7463))
+* optimize dependencies ([a099263](https://github.com/entrecode/eslint-config-entrecode/commit/a099263))
+* updates readme ([7c9cdec](https://github.com/entrecode/eslint-config-entrecode/commit/7c9cdec))
+
+
+
 ## <small>1.1.1 (2021-10-22)</small>
 
 * optimize dependencies ([a099263](https://github.com/entrecode/eslint-config-entrecode/commit/a099263))
