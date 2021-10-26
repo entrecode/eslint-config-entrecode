@@ -1,3 +1,9 @@
+## <small>1.1.4 (2021-10-26)</small>
+
+* support our react settings ([50efff7](https://github.com/entrecode/eslint-config-entrecode/commit/50efff7))
+* updated readme
+
+
 ## <small>1.1.2 (2021-10-23)</small>
 
 * 1.1.1 ([4a58550](https://github.com/entrecode/eslint-config-entrecode/commit/4a58550))
