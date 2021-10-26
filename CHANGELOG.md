@@ -1,3 +1,9 @@
+## <small>1.1.5 (2021-10-26)</small>
+
+* adds line length 120 ([c040515](https://github.com/entrecode/eslint-config-entrecode/commit/c040515))
+
+
+
 ## <small>1.1.4 (2021-10-26)</small>
 
 * support our react settings ([50efff7](https://github.com/entrecode/eslint-config-entrecode/commit/50efff7))

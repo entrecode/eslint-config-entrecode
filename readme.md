@@ -92,3 +92,7 @@ npm i --save-dev eslint-config-entrecode
   ]
 }
 ```
+
+## Note for node 14
+
+You will have to install eslint manually with `npm i eslint@7` in addition to `eslint-config-entrecode`.
