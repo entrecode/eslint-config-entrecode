@@ -56,6 +56,7 @@ module.exports = {
     'import/prefer-default-export': 'off',
     'import/no-default-export': 'off',
     'import/no-cycle': 'off',
+    'max-len': ['error', { code: 120, tabWidth: 2 }],
   },
   plugins: ['prettier'],
   env: {
@@ -100,6 +101,7 @@ module.exports = {
         ],
         // https://basarat.gitbooks.io/typescript/docs/tips/defaultIsBad.html
         'react/prop-types': 'off',
+        'max-len': ['error', { code: 120, tabWidth: 2 }],
       },
     },
   ],
