@@ -1,3 +1,14 @@
+## <small>1.1.6 (2021-11-16)</small>
+
+* changed support for typescript with override ([ece7463](https://github.com/entrecode/eslint-config-entrecode/commit/ece7463))
+* disable lines-between-class-members ([a761212](https://github.com/entrecode/eslint-config-entrecode/commit/a761212))
+* fix imports ([f1e76ad](https://github.com/entrecode/eslint-config-entrecode/commit/f1e76ad))
+* optimize dependencies ([a099263](https://github.com/entrecode/eslint-config-entrecode/commit/a099263))
+* support our react settings ([50efff7](https://github.com/entrecode/eslint-config-entrecode/commit/50efff7))
+* updates readme ([7c9cdec](https://github.com/entrecode/eslint-config-entrecode/commit/7c9cdec))
+
+
+
 ## <small>1.1.5 (2021-10-26)</small>
 
 * adds line length 120 ([c040515](https://github.com/entrecode/eslint-config-entrecode/commit/c040515))
