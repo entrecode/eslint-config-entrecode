@@ -15,7 +15,6 @@ module.exports = {
         jsxSingleQuote: false,
         trailingComma: 'es5',
         bracketSpacing: true,
-        jsxBracketSameLine: false,
         arrowParens: 'always',
         proseWrap: 'preserve',
         htmlWhitespaceSensitivity: 'css',
@@ -49,6 +48,7 @@ module.exports = {
       },
     ],
     'no-use-before-define': ['error', { functions: false, classes: true, variables: true }],
+    'lines-between-class-members': 'off',
     // Too restrictive, writing ugly code to defend against a very unlikely scenario: https://eslint.org/docs/rules/no-prototype-builtins
     'no-prototype-builtins': 'off',
     'jsx-a11y/alt-text': 'warn',
@@ -99,6 +99,7 @@ module.exports = {
           'error',
           { functions: false, classes: true, variables: true, typedefs: true },
         ],
+        '@typescript-eslint/lines-between-class-members': 'off',
         // https://basarat.gitbooks.io/typescript/docs/tips/defaultIsBad.html
         'react/prop-types': 'off',
         'max-len': ['error', { code: 120, tabWidth: 2 }],
