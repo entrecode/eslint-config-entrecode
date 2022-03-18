@@ -12,11 +12,20 @@ entrecode code style
 npm i --save-dev eslint-config-entrecode
 ```
 
-2. add `.eslintrc` file:
+2. add the following properties into your `package.json` file:
 
 ```json
 {
-  "extends": ["entrecode"]
+  …
+  "eslintConfig": {
+    "extends": "entrecode"
+  },
+  "prettier":{
+    "printWidth": 120,
+    "singleQuote": true,
+    "trailingComma": "all"
+  },
+  …
 }
 ```
 
@@ -26,7 +35,10 @@ npm i --save-dev eslint-config-entrecode
 {
   "eslint.lintTask.enable": true,
   "eslint.format.enable": true,
-  "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"]
+  "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
+  "prettier.printWidth": 120,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "all"
 }
 ```
 
