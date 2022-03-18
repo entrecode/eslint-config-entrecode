@@ -2,38 +2,7 @@
 
 entrecode code style
 
-## global usage (preferred)
-> use this if you want this code style applied to all projects without custom .eslintrc in VSCode
-
-1. run this in your root projects directory:
-
-```sh
-npm i eslint-config-entrecode
-```
-
-2. add `.eslintrc` file:
-
-```json
-{
-  "extends": ["entrecode"]
-}
-```
-
-4. add vscode settings:
-
-```json
-{
-  "eslint.lintTask.enable": true,
-  "eslint.format.enable": true,
-  "eslint.validate": [
-    "javascript",
-    "javascriptreact",
-    "typescript",
-    "typescriptreact"
-  ]
-}
-```
-## local usage (best for new projects or outside shared projects)
+## local usage (preferred)
 
 > use this for shared projects, or if you want to do everything like it's meant to be
 
@@ -57,12 +26,35 @@ npm i --save-dev eslint-config-entrecode
 {
   "eslint.lintTask.enable": true,
   "eslint.format.enable": true,
-  "eslint.validate": [
-    "javascript",
-    "javascriptreact",
-    "typescript",
-    "typescriptreact"
-  ]
+  "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"]
+}
+```
+
+## global usage (deprecated, eslint > 8 does not support this anymore)
+
+> use this if you want this code style applied to all projects without custom .eslintrc locally in your project
+
+1. run this in your root projects directory:
+
+```sh
+npm i eslint-config-entrecode
+```
+
+2. add `.eslintrc` file:
+
+```json
+{
+  "extends": ["entrecode"]
+}
+```
+
+3. add vscode settings:
+
+```json
+{
+  "eslint.lintTask.enable": true,
+  "eslint.format.enable": true,
+  "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"]
 }
 ```
 
@@ -84,12 +76,7 @@ npm i --save-dev eslint-config-entrecode
 {
   "eslint.lintTask.enable": true,
   "eslint.format.enable": true,
-  "eslint.validate": [
-    "javascript",
-    "javascriptreact",
-    "typescript",
-    "typescriptreact"
-  ]
+  "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"]
 }
 ```
 
