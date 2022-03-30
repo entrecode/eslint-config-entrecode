@@ -33,12 +33,18 @@ npm i --save-dev eslint-config-entrecode
 
 ```json
 {
+  …
   "eslint.lintTask.enable": true,
   "eslint.format.enable": true,
   "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
   "prettier.printWidth": 120,
   "prettier.singleQuote": true,
-  "prettier.trailingComma": "all"
+  "prettier.trailingComma": "all",
+  "html.format.enable": false,
+  "json.format.enable": false,
+  "javascript.format.enable": false,
+  "typescript.format.enable": false,
+  …
 }
 ```
 
@@ -91,7 +97,3 @@ npm i eslint-config-entrecode
   "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"]
 }
 ```
-
-## Note for node 14
-
-You will have to install eslint manually with `npm i eslint@7` in addition to `eslint-config-entrecode`.
