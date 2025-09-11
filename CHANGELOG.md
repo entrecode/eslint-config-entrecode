@@ -1,3 +1,13 @@
+## 3.0.0 (2025-09-11)
+
+* Refactor ESLint configuration to use modern syntax and structure, replacing .eslintrc with a module- ([f431da7](https://github.com/entrecode/eslint-config-entrecode/commit/f431da7))
+* Update dependencies in package.json and package-lock.json to latest versions, including ESLint, Type ([c960e56](https://github.com/entrecode/eslint-config-entrecode/commit/c960e56))
+* Update package version to 3.0.0 and remove package-lock.json to streamline dependency management. ([9ac06e5](https://github.com/entrecode/eslint-config-entrecode/commit/9ac06e5))
+* updates readme ([06de18b](https://github.com/entrecode/eslint-config-entrecode/commit/06de18b))
+* Updates Readme with more VSCode Settings ([9a70d61](https://github.com/entrecode/eslint-config-entrecode/commit/9a70d61))
+
+
+
 ## 2.0.0 (2022-03-18)
 
 * adds line length 120 ([c040515](https://github.com/entrecode/eslint-config-entrecode/commit/c040515))
