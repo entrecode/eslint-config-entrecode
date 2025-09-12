@@ -10,7 +10,7 @@ export default [
   // Base configuration
   {
     languageOptions: {
-      ecmaVersion: 2021,
+      ecmaVersion: 2024,
       sourceType: 'module',
     },
     rules: {
@@ -38,7 +38,7 @@ export default [
   {
     files: ['**/*.js'],
     languageOptions: {
-      ecmaVersion: 2021,
+      ecmaVersion: 2024,
       sourceType: 'module',
       globals: {
         ...globals.browser,
@@ -52,14 +52,6 @@ export default [
     rules: {
       ...js.configs.recommended.rules,
       ...importPlugin.configs.recommended.rules,
-      'prettier/prettier': [
-        'error',
-        {
-          printWidth: 120,
-          singleQuote: true,
-          trailingComma: 'all',
-        },
-      ],
 
       // Error prevention rules (from Airbnb errors.js)
       'for-direction': 'error',
@@ -334,7 +326,7 @@ export default [
       parser: typescriptParser,
       parserOptions: {
         project: './tsconfig.json',
-        ecmaVersion: 2021,
+        ecmaVersion: 2024,
         sourceType: 'module',
       },
       globals: {
@@ -351,14 +343,6 @@ export default [
       ...js.configs.recommended.rules,
       ...typescript.configs.recommended.rules,
       ...importPlugin.configs.recommended.rules,
-      'prettier/prettier': [
-        'error',
-        {
-          printWidth: 120,
-          singleQuote: true,
-          trailingComma: 'all',
-        },
-      ],
 
       // TypeScript specific rules
       '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
